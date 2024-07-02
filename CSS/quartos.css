@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner_quartos{
+    width: 100%;
+    height: 400px;
+    background-image: url("/assets/img-fundo.jpg");
+    background-size: cover;
+}
+
+.secao_quarto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao_quarto h1{
+    color: rgb(95, 90, 90);
+    font-size: 30px;
+    font-weight: normal;
+    font-family: sans-serif;
+    padding: 10px;
+    margin: 30px auto;
+}
+
+.secao_quarto p{
+    font-family: sans-serif;
+    color: rgb(95, 90, 90);
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 40px ;
+}
+
+.secao_quarto img{
+    width: 350px;
+    height: 250px;
+}
+
+.secao_quarto h2{
+    color: rgb(95, 90, 90);
+    font-size: 17px;
+    font-weight: 800;
+    font-family: sans-serif;
+    padding: 10px;
+    margin: 30px auto 0px auto;
+}
+
+.divs_imgs{
+    display: flex;
+    gap: 10px;
+}
+
+.quartos_listas ul{
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.quartos_listas li{
+    font-family: sans-serif;
+    color: rgb(95, 90, 90);
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 50px ;
+    border: 1px solid  rgb(95, 90, 90);
+    border-radius: 4px;
+}
